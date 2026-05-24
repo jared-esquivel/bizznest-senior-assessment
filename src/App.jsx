@@ -5,10 +5,10 @@ import LinkButton from "./componets/LinkButton.jsx";
 import ProjectCard from "./componets/ProjectCard.jsx";
 import { Terminal, User, FileText, Folder, Newspaper } from "lucide-react";
 
-import HackWatsonvilleLogo from "./assets/hackwatsonville-logo.png";
-import CabrilloHonorsClub from "./assets/CabrilloHonorsClub-logo.png";
-import ProjectBackground from "./assets/project-bg.png";
-import Lookout from "./assets/LookoutSantacruzLogo.png";
+import HackWatsonvilleLogo from "./assets/hackwatsonville-logo.webp";
+import CabrilloHonorsClub from "./assets/CabrilloHonorsClub-logo.webp";
+import ProjectBackground from "./assets/project-bg.webp";
+import Lookout from "./assets/LookoutSantacruzLogo.webp";
 
 function App() {
   const linksData = [

@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../assets/Jared-Esquivel-Headshot.png";
+import Headshot from "../assets/Jared-Esquivel-Headshot.webp";
 
 function ProfileAvatar() {
   return (
