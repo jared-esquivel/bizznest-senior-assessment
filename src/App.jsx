@@ -2,9 +2,10 @@ import React from "react";
 import "./App.css";
 import ProfileAvatar from "./componets/ProfileAvatar.jsx";
 import LinkButton from "./componets/LinkButton.jsx";
-import { Terminal, User, FileText, Folder } from "lucide-react";
+import { Terminal, User, FileText, Folder, Newspaper } from "lucide-react";
 
 import HackWatsonvilleLogo from "./assets/hackwatsonville-logo.png";
+import CabrilloHonorsClub from "./assets/CabrilloHonorsClub-logo.png";
 
 function App() {
   const linksData = [
@@ -29,9 +30,19 @@ function App() {
       IconComponent: FileText,
     },
     {
+      title: "Media & Recognition",
+      url: "https://www.santacruzworks.org/news/meet-the-ahsc-interns-jared-esquivel-at-innovation-within",
+      IconComponent: Newspaper,
+    },
+    {
       title: "HackWatsonville",
       url: "https://jared-esquivel.github.io/hackwatsonville-site/", // Or your preferred landing page
       IconComponent: HackWatsonvilleLogo, // 2. Pass the imported image path straight in!
+    },
+    {
+      title: "CabrilloHonorsClub",
+      url: "https://jared-esquivel.github.io/Honors_Club_Webpage/",
+      IconComponent: CabrilloHonorsClub,
     },
   ];
 
