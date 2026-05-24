@@ -1,11 +1,12 @@
 import React from "react";
+import Headshot from "../assets/Jared-Esquivel-Headshot.png";
 
 function ProfileAvatar() {
   return (
     <div className="flex justify-center w-full">
-      <div className="w-32 h-32 rounded-full overflow-hidden bg-zinc-200 border-2 border-zinc-300 flex items-center justify-center relative">
+      <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden bg-zinc-200 border-2 border-zinc-300 flex items-center justify-center relative shadow-sm">
         <img
-          src="/src/assets/Jared-Esquivel-Headshot.png"
+          src={Headshot}
           alt="Jared Esquivel"
           className="w-full h-full object-cover"
         />
