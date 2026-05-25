@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { MousePointerClick } from "lucide-react";
 
 function ProjectCard({ title, description, backgroundImage, link }) {
-  // 1. Just a simple click counter starting at 0
+  // declares our clicks
   const [clicks, setClicks] = useState(0);
 
-  // 2. Simple function that adds 1 every time you click
+  // Counts the amount of clicks on the card
   const handleCardClick = () => {
     setClicks(clicks + 1);
   };
@@ -29,19 +29,19 @@ function ProjectCard({ title, description, backgroundImage, link }) {
 
       {/* Real Counter Badge */}
       <div className="absolute top-4 right-4 flex items-center gap-1 bg-black/70 backdrop-blur-md px-3 py-1.5 rounded-full border border-zinc-700 text-white text-xs font-medium">
-        <MousePointerClick className="w-3.5 h-3.5 text-emerald-400" />
+        <MousePointerClick className="w-3.5 h-3.5 text-white" />
         <span>{clicks} clicks on this visit</span>
       </div>
 
       {/* Text on the bottom of the card */}
       <div className="absolute inset-x-0 bottom-0 p-6 flex flex-col text-left">
-        <span className="text-[10px] font-bold text-red-500 uppercase tracking-widest mb-1">
+        <span className="text-[10px] font-bold text-white uppercase tracking-widest mb-1">
           Featured Project
         </span>
-        <h3 className="text-xl font-bold text-white mb-1 group-hover:text-red-400 transition-colors duration-200">
+        <h3 className="text-xl font-bold text-white mb-1 group-hover:text-white transition-colors duration-200">
           {title}
         </h3>
-        <p className="text-xs text-zinc-300 leading-relaxed max-w-[90%]">
+        <p className="text-xs text-white leading-relaxed max-w-[90%]">
           {description}
         </p>
       </div>

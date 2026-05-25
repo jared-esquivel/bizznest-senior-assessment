@@ -66,25 +66,21 @@ function App() {
       <div className="w-full max-w-md flex flex-col items-center text-center mt-4 sm:mt-10">
         <header className="mb-6 w-full flex flex-col items-center">
           <ProfileAvatar />
-          <h1 className="text-2xl font-black mt-4 text-zinc-900 tracking-tight">
+          <h1 className="text-2xl font-black mt-4 text-white tracking-tight">
             Jared Esquivel
           </h1>
           <p className="text-white mt-2 text-xs sm:text-sm font-medium px-2 sm:px-4 leading-relaxed">
             HackWatsonville Founder | Web Dev Associate @ BizzNEST | National
             Hispanic Heritage Youth Awardee in Technology
           </p>
-          <p className="text-red-600 font-bold text-xs sm:text-sm pt-3 px-2">
-            Connecting students with opportunities in engineering and
-            technology. Coffee enthusiast ☕
+          <p className="text-white font-bold text-lg sm:text-xl pt-3 px-2">
+            "Connecting students with opportunities in engineering and
+            technology. Coffee enthusiast ☕"
           </p>
-          <div className="flex items-center gap-1.5 mt-3 text-blue-500 font-bold text-[11px] sm:text-xs tracking-wide">
-            <span>📍</span>
-            <span>Santa Cruz County</span>
-          </div>
         </header>
 
         <div className="w-full text-left px-1 mb-2">
-          <h2 className="text-[10px] sm:text-xs font-black text-zinc-400 uppercase tracking-widest pl-1">
+          <h2 className="text-[10px] sm:text-xs font-black text-white uppercase tracking-widest pl-1">
             Project Spotlight
           </h2>
         </div>
@@ -107,11 +103,11 @@ function App() {
           ))}
         </main>
 
-        <footer className="w-full mt-12 mb-4 pt-6 border-t border-zinc-200/60 text-center flex flex-col gap-1">
-          <p className="text-[11px] font-semibold text-zinc-500 tracking-wide">
+        <footer className="w-full mt-12 mb-4 pt-6 border-t border-white text-center flex flex-col gap-1">
+          <p className="text-[11px] font-semibold text-white tracking-wide">
             © {new Date().getFullYear()} Jared Esquivel. All rights reserved.
           </p>
-          <p className="text-[10px] font-medium text-zinc-400">
+          <p className="text-[10px] font-medium text-white">
             "Don't wait for opportunities, build them!"
           </p>
         </footer>
