@@ -4,6 +4,12 @@
 
 A responsive, custom Linktree-style profile built with React and Vite for the BizzNEST technical assessment.
 
+## Live Project Links
+
+Live Deployment: [Insert your live URL here]
+
+Video Pitch Link: [Insert your video URL here]
+
 ## Features
 
 - **Profile Section:** Clean, mobile-first introduction layout.
@@ -14,7 +20,7 @@ A responsive, custom Linktree-style profile built with React and Vite for the Bi
 
 - **Framework:** React
 - **Build Tool:** Vite
-- **Styling:** CSS / [Tailwind if you choose to use it]
+- **Styling:** CSS & Tailwind CSS
 
 ## Local Setup Instructions
 

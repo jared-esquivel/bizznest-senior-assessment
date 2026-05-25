@@ -1,10 +1,11 @@
-/* 1. Target your existing button, force it to hide the overflow, and set a position anchor */
+/* Our animation has an  */
+/* Flas effect will only stay inside here */
 .group {
   position: relative;
   overflow: hidden;
 }
 
-/* 2. Automatically inject the shine layer using CSS pseudo-elements */
+/* Our shine overlay layer */
 .group::before {
   content: "";
   position: absolute;
@@ -18,18 +19,25 @@
     rgba(255, 255, 255, 0.4),
     transparent
   );
+  /* Positions the shape to the left edge and then -25 degrees */
   transform: translateX(-100%) skewX(-25deg);
+  /* So clicks can pass through our animation */
   pointer-events: none;
 }
 
-/* 3. Trigger the movement sequence when your mouse hovers over the button */
 .group:hover::before {
+  /* A transition curve for 0.75s */
   animation: shineSweep 0.75s ease-in-out;
 }
 
-/* 4. Define the animation path */
+/* Starts and stops our light  */
 @keyframes shineSweep {
+  0% {
+    /* Our start position */
+    transform: translate(-100%) skewX(-25deg);
+  }
   100% {
+    /* Our end position */
     transform: translateX(100%) skewX(-25deg);
   }
 }
