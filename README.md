@@ -6,9 +6,9 @@ A responsive, custom Linktree-style profile built with React and Vite for the Bi
 
 ## Live Project Links
 
-Live Deployment: [URL here]
+Live Deployment: https://jared-esquivel.github.io/bizznest-senior-assessment/
 
-Video Pitch Link: [URL here]
+Video Pitch Link: https://youtu.be/vComvuWnitM
 
 ## Features
 
