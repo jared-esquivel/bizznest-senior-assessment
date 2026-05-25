@@ -9,6 +9,7 @@ import HackWatsonvilleLogo from "./assets/hackwatsonville-logo.webp";
 import CabrilloHonorsClub from "./assets/CabrilloHonorsClub-logo.webp";
 import ProjectBackground from "./assets/project-bg.webp";
 import Lookout from "./assets/LookoutSantacruzLogo.webp";
+import Background from "./assets/bg.webp";
 
 function App() {
   const linksData = [
@@ -55,14 +56,20 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#f3f4f6] to-[#e5e7eb] px-4 sm:px-6 py-8 flex flex-col items-center select-none antialiased">
+    <div
+      className="w-full min-h-screen bg-cover bg-no-repeat bg-fixed px-4 sm:px-6 py-8 flex flex-col items-center select-none antialiased overflow-y-auto"
+      style={{
+        backgroundImage: `url(${Background})`,
+        backgroundPosition: "center top",
+      }}
+    >
       <div className="w-full max-w-md flex flex-col items-center text-center mt-4 sm:mt-10">
         <header className="mb-6 w-full flex flex-col items-center">
           <ProfileAvatar />
           <h1 className="text-2xl font-black mt-4 text-zinc-900 tracking-tight">
             Jared Esquivel
           </h1>
-          <p className="text-zinc-600 mt-2 text-xs sm:text-sm font-medium px-2 sm:px-4 leading-relaxed">
+          <p className="text-white mt-2 text-xs sm:text-sm font-medium px-2 sm:px-4 leading-relaxed">
             HackWatsonville Founder | Web Dev Associate @ BizzNEST | National
             Hispanic Heritage Youth Awardee in Technology
           </p>

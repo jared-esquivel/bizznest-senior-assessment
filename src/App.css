@@ -1,0 +1,35 @@
+/* 1. Target your existing button, force it to hide the overflow, and set a position anchor */
+.group {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 2. Automatically inject the shine layer using CSS pseudo-elements */
+.group::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: translateX(-100%) skewX(-25deg);
+  pointer-events: none;
+}
+
+/* 3. Trigger the movement sequence when your mouse hovers over the button */
+.group:hover::before {
+  animation: shineSweep 0.75s ease-in-out;
+}
+
+/* 4. Define the animation path */
+@keyframes shineSweep {
+  100% {
+    transform: translateX(100%) skewX(-25deg);
+  }
+}
