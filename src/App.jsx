@@ -101,7 +101,7 @@ function App() {
           {/* Our Custom Feature Componet: Project Spotlight */}
           <ProjectCard
             title="Prompt-Us-Pizzeria"
-            description="An interactive 2D simulation built with JavaScript OOP to manage custom station logic and modular game states."
+            description="Co-developed a nonprofit Personally Identifiable Information (PII) training tool using JavaScript and Phaser 3; built modular game states to teach data-security."
             backgroundImage={ProjectBackground}
             link="https://prompt-us-pizzeria.pages.dev/"
           />

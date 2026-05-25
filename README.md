@@ -6,15 +6,15 @@ A responsive, custom Linktree-style profile built with React and Vite for the Bi
 
 ## Live Project Links
 
-Live Deployment: [Insert your live URL here]
+Live Deployment: [URL here]
 
-Video Pitch Link: [Insert your video URL here]
+Video Pitch Link: [URL here]
 
 ## Features
 
 - **Profile Section:** Clean, mobile-first introduction layout.
 - **Core Links:** Centralized directory for my LinkedIn, GitHub, portfolio, and résumé.
-- **[Your Feature Name]:** _ Leave a placeholder here for the custom feature you choose to pitch and build later!_
+- **[Your Feature Name]:** A featured project container that highlights a recent web application with built-in dynamic click tracking.
 
 ## Tech Stack
 
